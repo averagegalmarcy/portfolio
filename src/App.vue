@@ -1,27 +1,16 @@
 <template>
   <div id="app">
-    <header>
-      <nav>
-        <RouterLink to="/"> home </RouterLink>
-        <RouterLink to="/work"> work </RouterLink>
-         <div id="header">
-             <img src="../src/assets/logo.png" width="150" height="100px" alt="logo" />
-        </div> 
-        <RouterLink to="/about"> about </RouterLink>
-        <RouterLink to="/contact"> contact </RouterLink>
-      </nav>
-    </header>
-     <main> 
-      <RouterView></RouterView>
-    </main>
+    <Header/>
     <Welcome/>
   </div>
 </template>
 <script>
 import Welcome from './components/Welcome';
+import Header from './components/Header';
 export default {
   components: {
-    Welcome
+    Welcome,
+    Header
   }
 }; 
 </script>
