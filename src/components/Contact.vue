@@ -1,7 +1,5 @@
 <template>
-  <body>
-    <h1>This is the work page</h1>
-  </body>
+  <h1>This is a contact page</h1>
 </template>
 
 <style scoped>
@@ -10,6 +8,5 @@
 h1 {
   text-align: center;
   font-family: 'Sawarabi Gothic', sans-serif;
-
 }
 </style>

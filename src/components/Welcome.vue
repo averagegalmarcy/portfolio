@@ -1,8 +1,8 @@
 <template>
   <section>
      <div class="typewriter">
-      <h1>{Marcy Silverman}</h1>
-    </div>
+      <h1>{ Marcy Silerman }</h1>
+      </div>
   </section>
 </template>
 
