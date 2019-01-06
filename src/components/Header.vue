@@ -1,9 +1,9 @@
 <template>
   <section>
     <header>
-      <div class="form" v-if="show">
-      <transition name="fade">
-      </transition>
+      <!-- <div class="form" v-if="show"> -->
+      <!-- <transition name="fade">
+      </transition> -->
       <nav>
         <RouterLink to="/"> home </RouterLink>
         <RouterLink to="/work"> work </RouterLink>
@@ -13,10 +13,10 @@
         <RouterLink to="/about"> about </RouterLink>
         <RouterLink to="/contact"> contact </RouterLink>
       </nav>
-      </div>
-      <div class="form-button" v-else>
+      <!-- </div> -->
+      <!-- <div class="form-button" v-else>
             <button @click="show = true"> ☰ </button>   
-        </div>
+        </div> -->
     </header>
     <main> 
       <RouterView></RouterView>
@@ -25,11 +25,11 @@
 </template>
 <script>
 export default {
-  data() {
-    return {
-      show: false
-    };
-  }
+  // data() {
+  //   return {
+  //     show: false
+  //   };
+  // }
 };
 </script>
 
