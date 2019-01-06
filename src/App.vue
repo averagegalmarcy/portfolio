@@ -2,15 +2,18 @@
   <div id="app">
     <Header/>
     <Welcome/>
+    <Footer />
   </div>
 </template>
 <script>
 import Welcome from './components/Welcome';
 import Header from './components/Header';
+import Footer from './components/Footer';
 export default {
   components: {
     Welcome,
-    Header
+    Header,
+    Footer
   }
 }; 
 </script>
@@ -35,7 +38,6 @@ nav a {
   color:rgba(255,255,255, 0.8);
   text-decoration: none;
   font-weight: bold;
-  font-size: 3vh;
   padding: 20px;
   font-size: 15pt;
   margin-top: 20px;
