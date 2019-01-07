@@ -15,7 +15,7 @@
         </div>
       </li>
       <li>
-        <img src="../assets/list-vue.png" width="100%" height="100%">
+        <img src="../assets/todo.png" width="100%" height="100%">
         <div class="info">
          <p> HTML</p>
          <p> CSS </p>
@@ -31,7 +31,7 @@
         </div>
       </li>
       <li>
-        <img src="../assets/todo.png" width="100%" height="100%">
+        <img src="../assets/list-vue.png" width="100%" height="100%">
           <div class="info">
           <p> HTML</p>
           <p> CSS </p>
@@ -148,27 +148,16 @@ ul {
   margin-top: 30pt;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-auto-rows: 300px;
+  grid-auto-rows: 350px;
   grid-auto-flow: dense;
   grid-column-gap: 15px;
   grid-row-gap:15px;
 }
 li:nth-child(2n) {
   grid-row: span 2;
-  grid-column: span 1.5;
-}
-li:nth-child(3n) {
-  grid-row: span 1.5;
   grid-column: span 1;
 }
-li:nth-child(4n) {
-  grid-row: span 1.75;
-  grid-column: span 1.75.;
-}
-li:nth-child(5n) {
-  grid-row: span 1.3;
-  grid-column: span 1;
-}
+
 li {
   align-items: center;
   background-repeat: no-repeat;
@@ -181,8 +170,8 @@ li {
   overflow: hidden;
 &:hover {
     img{
-        transform: scale(1.1);
-        filter: grayscale(1); 
+        transform: scale(.9);
+        filter: grayscale(0); 
         }
         .info {
       bottom: 0;
@@ -192,7 +181,7 @@ li {
 img {
   transition: 500ms;
   opacity: .7;
-  filter: grayscale(0);
+  filter: grayscale(1);
   position: absolute;
   z-index: -1;
 }
