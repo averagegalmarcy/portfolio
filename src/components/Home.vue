@@ -35,7 +35,8 @@
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css?family=Asap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
 ul {
   list-style: none;
   display: grid;
@@ -54,7 +55,7 @@ li {
   padding: 10px 10px 10px 10px;
   font-size: 20pt;
   color: #A28070;
-  font-family: 'Asap', sans-serif;
+  font-family: 'Playfair Display', serif;
   background-color:#FFFEFD;
 }
 img {

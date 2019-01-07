@@ -34,14 +34,15 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Sawarabi+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 header {
   height: 100px;
   background: #E4D3CB;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Sawarabi Gothic', sans-serif;
+  font-family: 'Playfair Display', serif;
+
 }
 #header {
   display: left;

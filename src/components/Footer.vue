@@ -6,11 +6,11 @@
   </section>
 </template>
 <style scoped>
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Sawarabi+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 h3 {
   text-align: center;
-  font-family: 'Sawarabi Gothic', sans-serif;
+  font-family: 'Playfair Display', serif;
   color:white;
   position:absolute;
   bottom:0;

@@ -1,10 +1,11 @@
 <template>
   <body>
-    <!-- <header>
+    <header>
+      <h1> Filter </h1>
       From Web Components, APIs, and UI/UX designs to Javascript, React.JS, 
       Redux, Vue.JS, and Node.JS. Please feel free to view any of 
       these projects further.
-    </header> -->
+    </header>
     <ul>
       <li>
         <img src="../assets/pasta-css.png" width="100%" height="100%">
@@ -131,20 +132,20 @@
 </template>
 
 <style scoped lang="postcss">
-@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo');
-@import url('https://fonts.googleapis.com/css?family=Asap');
-@import url('https://fonts.googleapis.com/css?family=Poiret+One');
-
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 header {
   text-align: center;
-  font-family: 'Sawarabi Gothic', sans-serif;
-  /* color: white; */
-  color: #A28070;
+  font-family: 'Playfair Display', serif;
   font-size: 1.5em;
   display: inline-block;
+  /* background-color: rgba(174, 172, 171, 0.399); */
+  margin-top: 30pt;
+  font-size: 15pt;
+  color:#E4D3CB;
 }
 ul {
+  margin-top: 30pt;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-auto-rows: 300px;
@@ -208,7 +209,7 @@ p {
   margin: 0;
   color: white;
   /* color: #A28070; */
-  font-family: 'Poiret One', cursive;
+  font-family: 'Playfair Display', serif;
   text-shadow: 1pt 1pt 1pt grey;
   font-weight: bold;
   align-content: center;
