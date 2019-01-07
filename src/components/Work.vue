@@ -1,5 +1,10 @@
 <template>
   <body>
+    <!-- <header>
+      From Web Components, APIs, and UI/UX designs to Javascript, React.JS, 
+      Redux, Vue.JS, and Node.JS. Please feel free to view any of 
+      these projects further.
+    </header> -->
     <ul>
       <li>
         <img src="../assets/pasta-css.png" width="100%" height="100%">
@@ -130,7 +135,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 
 
-h3 {
+header {
   text-align: center;
   font-family: 'Sawarabi Gothic', sans-serif;
   /* color: white; */
@@ -167,22 +172,15 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   background-image:#FFFEFD;
-  box-shadow: 1pt 1pt 1pt #A28070;
+  box-shadow: 1pt 1pt 3pt lightgrey;
 } 
 li {
   position: relative;
   overflow: hidden;
 &:hover {
     img{
-        /* transform: scale(1.1); */
-        opacity: .8;
-        z-index: -1;
-        -webkit-filter: blur(10px);
-        -moz-filter: blur(10px);
-        -o-filter: blur(10px);
-        -ms-filter: blur(10px);
-        filter: blur(10px);
-        filter: grayscale(0); 
+        transform: scale(1.1);
+        filter: grayscale(1); 
         }
         .info {
       bottom: 0;
@@ -191,8 +189,8 @@ li {
 }
 img {
   transition: 500ms;
-  opacity: .5;
-  filter: grayscale(1);
+  opacity: .7;
+  filter: grayscale(0);
   position: absolute;
   z-index: -1;
 }
@@ -202,7 +200,7 @@ img {
   bottom: -100%;
   height: 100%;
   width: 100%;
-  background:rgba(228, 211, 203, 0.618);
+  background:rgba(228, 211, 203, 0.8);
   text-align: center;
 }
 p {
