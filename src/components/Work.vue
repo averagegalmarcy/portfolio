@@ -148,14 +148,15 @@ ul {
   margin-top: 30pt;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-auto-rows: 350px;
+  grid-auto-rows: 250px;
   grid-auto-flow: dense;
   grid-column-gap: 15px;
   grid-row-gap:15px;
 }
 li:nth-child(2n) {
-  grid-row: span 2;
   grid-column: span 1;
+  grid-row: span 2;
+
 }
 
 li {
