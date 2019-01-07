@@ -119,10 +119,11 @@
           </div>
       </li>
       <li>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPYwVKS5-aMVxNp7h1Q98GlR-KkMcZJ0Mdbs4zmJlHiJtr6xxnYw" width="100%" height="100%">
+        <img src="../assets/rick-and-morty.png" width="100%" height="100%">
           <div class="info">
-          <h3> project </h3>
-          <p> description</p>
+          <p> HTML</p>
+          <p> CSS </p>
+          <p> PHP </p>
           </div>
       </li>
     </ul>
