@@ -150,8 +150,8 @@ ul {
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-auto-rows: 250px;
   grid-auto-flow: dense;
-  grid-column-gap: 15px;
-  grid-row-gap:15px;
+  grid-column-gap: 20px;
+  grid-row-gap:20px;
 }
 li:nth-child(2n) {
   grid-column: span 1;
@@ -171,12 +171,11 @@ li {
   overflow: hidden;
 &:hover {
     img{
-        transform: scale(.9);
         filter: grayscale(0); 
         }
-        .info {
-      bottom: 0;
-    }
+        img + .info {
+          opacity: 1;
+        }
   }
 }
 img {
@@ -187,9 +186,14 @@ img {
   z-index: -1;
 }
 .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  top: 0;
   transition: 500ms;
   position: absolute;
-  bottom: -100%;
   height: 100%;
   width: 100%;
   background:rgba(228, 211, 203, 0.8);
@@ -197,13 +201,16 @@ img {
 }
 p {
   margin: 0;
-  color: white;
+  color:white;
   /* color: #A28070; */
   font-family: 'Playfair Display', serif;
   text-shadow: 1pt 1pt 1pt grey;
   font-weight: bold;
   align-content: center;
   margin-top: 10%;
+  background: radial-gradient(grey, rgba(0, 0, 0, 0) 80%);
+  display: inline;
+  padding: 10px;
 }
 
 </style>

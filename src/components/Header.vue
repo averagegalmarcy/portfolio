@@ -10,8 +10,10 @@
          <div id="header">
              <img src="../../src/assets/logo.png" width="150" height="100px" alt="logo" />
         </div> 
+        <div id="link">
         <RouterLink to="/about"> about </RouterLink>
         <RouterLink to="/contact"> contact </RouterLink>
+        </div>
       </nav>
       <!-- </div> -->
       <!-- <div class="form-button" v-else>
@@ -42,10 +44,14 @@ header {
   align-items: center;
   justify-content: center;
   font-family: 'Playfair Display', serif;
-
-}
-#header {
   display: left;
+}
+img{
+  margin-left: 70px;
+}
+
+#link {
+  margin-left: 100px;
 }
 nav {
   display: flex;
@@ -59,6 +65,8 @@ nav a {
   padding: 20px;
   font-size: 15pt;
   margin-top: 20px;
+  display: inline-block;
+  margin-right: 90px;
 }
 nav a:hover {
   text-decoration: underline;
