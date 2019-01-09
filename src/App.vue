@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <Header/>
-    <!-- <Welcome/> -->
+    <Welcome/>
     <!-- <Footer /> -->
   </div>
 </template>
 <script>
-// import Welcome from './components/Welcome';
+import Welcome from './components/Welcome';
 import Header from './components/Header';
 // import Footer from './components/Footer';
 export default {
   components: {
-    // Welcome,
+    Welcome,
     Header
     // Footer
   }
