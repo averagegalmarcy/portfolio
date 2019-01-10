@@ -177,7 +177,7 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   background-image:#FFFEFD;
-  box-shadow: 1pt 1pt 3pt lightgrey;
+  border: 1pt grey solid;
 } 
 li {
   position: relative;
@@ -185,6 +185,7 @@ li {
 &:hover {
     img{
         filter: grayscale(1); 
+        transform: scale(1.2);
         }
         img + .info {
           opacity: 1;

@@ -1,7 +1,7 @@
  <template>
  <section class="wrapper">
       <div class="video-wrap">
-      <video id="video" src="../../src/assets/home-clip.mp4" autoplay="" loop=""></video>
+      <video id="video" src="../../src/assets/feather.mp4" height="500px" autoplay="" loop=""></video>
       </div>
       <div class="overlay">
       <h1> Welcome </h1>
@@ -18,20 +18,22 @@
   font-size: 20pt;
   font-family: 'Playfair Display', serif;
   align-items: center;
+  display: flex;
+  justify-content: center;
   height: 500px;
 }
 section {
   text-align: center;
   z-index: 10;
-  width: 100vw;
+  /* width: 100vw; */
 }
 .video-wrap {
   position: fixed;
-  width: 100%;
+  /* width: 100%; */
   z-index: -1;
 }
 .overlay {
-  height: 100%;
+  /* height: 100%; */
   top: 0;
   left: 0;
   color: white;
