@@ -184,7 +184,7 @@ li {
   overflow: hidden;
 &:hover {
     img{
-        filter: grayscale(0); 
+        filter: grayscale(1); 
         }
         img + .info {
           opacity: 1;
@@ -194,7 +194,7 @@ li {
 img {
   transition: 500ms;
   /* opacity: .7; */
-  filter: grayscale(1);
+  filter: grayscale(0);
   position: absolute;
   z-index: -1;
 }
