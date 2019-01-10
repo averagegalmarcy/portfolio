@@ -40,15 +40,20 @@ export default {
 header {
   height: 100px;
   background: #E4D3CB;
-  display: flex;
+  display:flex;
   align-items: center;
   justify-content: center;
   font-family: 'Playfair Display', serif;
-  display: left;
 }
-
 #link {
-  margin-left: 50px;
+  margin-left: 30px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+
 }
 nav {
   display: flex;
@@ -63,7 +68,7 @@ nav a {
   font-size: 15pt;
   margin-top: 20px;
   display: inline-block;
-  margin-right: 90px;
+  margin-right: 60px;
   color: #585557;
   font-size: 1em;
   line-height: 1.6em;
@@ -72,11 +77,12 @@ nav a {
 nav a:hover {
   text-decoration: underline;
   font-weight: bolder;
+  color: white;
 }
-.form-button {
+/* .form-button {
   margin-left: 90%;
   border: none;
   background-color: transparent;
   outline: none;
-}
+} */
 </style>
