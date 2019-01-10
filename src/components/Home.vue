@@ -1,5 +1,14 @@
 <template>
   <body>
+    <Overlay/>
+     <section class="wrapper">
+      <div class="video-wrap">
+      <video id="video" src="../../src/assets/home-clip.mp4" height="400%" autoplay="" loop=""></video>
+      </div>
+      <div class="overlay">
+      <h1> Welcome </h1>
+      </div>
+   </section>
     <div>
     <ul>
       <div id="project-1">
@@ -33,6 +42,14 @@
     </div>
   </body>
 </template>
+<script>
+import Overlay from './VideoOverlay';
+export default {
+  components: {
+    Overlay
+  }
+};
+</script>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');

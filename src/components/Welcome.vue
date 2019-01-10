@@ -11,9 +11,8 @@
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Sawarabi+Gothic');
-
-body {
-  background-color: #333; 
+span {
+  color: white;
 }
 
 .typewriter { 
@@ -31,11 +30,11 @@ body {
   background-repeat: no-repeat;
   background-position: left top;
 
-  -webkit-animation-duration: 15s;
+  -webkit-animation-duration: 20s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   animation-delay: 3s;
-  animation-duration: 3s;
+  animation-duration: 7s;
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
 }
@@ -56,8 +55,8 @@ h1 {
 
 .typewriter span:nth-child(1) {
   width: 7.5em;
-  -webkit-animation: typing 2s steps(40, end);
-  animation: typing 2s steps(40, end);
+  -webkit-animation: typing 3s steps(30, end);
+  animation: typing 3s steps(30, end);
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -65,10 +64,10 @@ h1 {
 .typewriter span:nth-child(2) {
   width: 7.8em;
   opacity: 0;
-  -webkit-animation: typing 2.5s steps(40, end);
-  animation: typing 3s steps(40, end);
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+  -webkit-animation: typing 3s steps(300, end);
+  animation: typing 3s steps(30, end);
+  -webkit-animation-delay: 5s;
+  animation-delay: 4s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }

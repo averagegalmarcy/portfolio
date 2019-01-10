@@ -2,18 +2,18 @@
   <div id="app">
     <Header/>
     <Welcome/>
-    <!-- <Footer /> -->
+    <Footer />
   </div>
 </template>
 <script>
 import Welcome from './components/Welcome';
 import Header from './components/Header';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 export default {
   components: {
     Welcome,
-    Header
-    // Footer
+    Header,
+    Footer
   }
 }; 
 </script>

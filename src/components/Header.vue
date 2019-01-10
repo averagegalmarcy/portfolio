@@ -8,7 +8,7 @@
         <RouterLink to="/"> home </RouterLink>
         <RouterLink to="/work"> work </RouterLink>
          <div id="header">
-             <img src="../../src/assets/logo.png" width="150" height="100px" alt="logo" />
+             <img src="../../src/assets/logo.png" width="160" height="100px" alt="logo" />
         </div> 
         <div id="link">
         <RouterLink to="/about"> about </RouterLink>
@@ -46,12 +46,9 @@ header {
   font-family: 'Playfair Display', serif;
   display: left;
 }
-img{
-  margin-left: 70px;
-}
 
 #link {
-  margin-left: 100px;
+  margin-left: 50px;
 }
 nav {
   display: flex;
@@ -67,6 +64,10 @@ nav a {
   margin-top: 20px;
   display: inline-block;
   margin-right: 90px;
+  color: #585557;
+  font-size: 1em;
+  line-height: 1.6em;
+  letter-spacing: .01em;
 }
 nav a:hover {
   text-decoration: underline;
