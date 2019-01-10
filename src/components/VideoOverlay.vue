@@ -1,7 +1,7 @@
  <template>
  <section class="wrapper">
       <div class="video-wrap">
-      <video id="video" src="../../src/assets/home-clip.mp4" height="500px" autoplay="" loop=""></video>
+      <video id="video" src="../../src/assets/homeClip.mp4" height="500px" autoplay="" loop=""></video>
       </div>
       <div class="overlay">
       <h1> Welcome </h1>
