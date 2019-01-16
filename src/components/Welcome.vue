@@ -30,7 +30,7 @@ span {
   background-repeat: no-repeat;
   background-position: left top;
 
-  -webkit-animation-duration: 20s;
+  -webkit-animation-duration: 15s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   animation-delay: 3s;
@@ -42,6 +42,7 @@ span {
 h1 {
   /* text-align: center; */
   font-family: 'Sawarabi Gothic', sans-serif;
+  line-height: 1.8;
 }
 
 .typewriter span {
@@ -55,8 +56,8 @@ h1 {
 
 .typewriter span:nth-child(1) {
   width: 7.5em;
-  -webkit-animation: typing 3s steps(30, end);
-  animation: typing 3s steps(30, end);
+  -webkit-animation: typing 3s steps(35, end);
+  animation: typing 3s steps(35, end);
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -66,8 +67,8 @@ h1 {
   opacity: 0;
   -webkit-animation: typing 3s steps(300, end);
   animation: typing 3s steps(30, end);
-  -webkit-animation-delay: 5s;
-  animation-delay: 4s;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }

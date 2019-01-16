@@ -4,7 +4,7 @@
       <video controls muted id="video" src="../../src/assets/homeClip.mp4" height="500px" autoplay="" loop="" ></video>
       </div>
       <div class="overlay">
-      <h1> Welcome </h1>
+      <h1> I am a <span>Web Developer</span> Always Striving to Learn More </h1>
       </div>
    </section>
  </template>
@@ -20,7 +20,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  height: 500px;
+  /* height: 500px; */
 }
 section {
   text-align: center;
@@ -43,5 +43,9 @@ section {
   font-family: 'Playfair Display', serif;
   letter-spacing: .02em;
 }
+span {
+  color: #979797;
+}
+
  </style>
  
